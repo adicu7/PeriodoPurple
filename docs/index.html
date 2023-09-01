@@ -1,0 +1,118 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Periodo Purple</title>
+
+  <link rel="preload" href="normalize.css" as="style">
+  <link rel="stylesheet" href="normalize.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&family=Lora&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preload" href="/style.css" as="style">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <header>
+    <h1 class="titulo">Ada Contreras <span>Ilustradora</span></h1>
+  </header>
+
+  <div class="nav-bg" id="nav-bg">
+    <nav class="navegacion-principal contenedor">
+      <a href="#nav-bg">Inicio</a>
+      <a href="#perfil">Sobre mi</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </div>
+
+  <section class="banner">
+    <div class="contenido-banner">
+      <img class="logo-pp" src="/img/logoblpp.png" alt="imagen logo">
+      <a href="#" class="boton"> Contactar </a>
+    </div>
+  </section>
+
+  <main class="contenedor sombra">
+
+    <div class="perfil" id="perfil">
+      <div class="perfil-foto">
+        <img src="/img/perfilfoto.png" alt="foto perfil">
+      </div>
+
+      <div class="perfil-texto">
+         <h2>Me presento</h2>
+        <p>Me llamo Ada Contreras y vivo en Bogotá, Colombia, aunque soy de Venezuela. Estudie en una escuela especialicida en artes plastica en mi ciudad. Aunque me aleje de las artes un tiempo, ahora estoy dispuesta a crecer como ilustradora digital y tradicional.</p>
+          <h3>¿Qué es periodo purple?</h3>
+        <p>Es un proyecto personal para centrar mis creaciones, los colores son usados para expresar emociones y sentimientos y me gusta la idea de estar entre el rojo y el azul, centrandome en la energía del morado o purpura que dicen que puede transmitir imaginación y creatividad y mantener la dualidad del arte tradicional y digital.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <section class="galeria" id="galeria">
+    <h2>Galeria</h2>
+    <div class="galeria-carr">
+      <img src="/img/1.jpg" alt="imagen galeria" class="galeria-img">
+      <img src="/img/2.jpg" alt="imagen galeria" class="galeria-img">
+      <img src="/img/3.jpg" alt="imagen galeria" class="galeria-img">
+      <img src="/img/4.jpg" alt="imagen galeria" class="galeria-img">
+      <img src="/img/5.jpg" alt="imagen galeria" class="galeria-img">
+      <img src="/img/6.jpg" alt="imagen galeria" class="galeria-img">
+    </div>
+  </section>
+
+  <section class="contenedor sombra" id="contacto">
+    <h2>Contacto</h2>
+
+    <div class="rrss">
+      <a href="https://www.instagram.com/periodo_purple/" alt="instagram" class="rrss-icon"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+      <a href="https://www.Ko-fi.com/periodo_purple" alt="Ko-fi" class="rrss-icon"><i class="fa-solid fa-mug-hot fa-2xl"></i></a>
+      <a href="https://www.behance.net/periodopurple" alt="Behance" class="rrss-icon"><i class="fa-brands fa-square-behance fa-2xl"></i></a>
+    </div>
+
+    <form class="formulario" action="#">
+      <fieldset>
+        <legend>Contactame llenando todos los campos</legend>
+
+        <div class="contenedor-campos">
+           <div class="campo">
+             <label for="#">Nombre</label>
+             <input class="input-text" type="text" placeholder="Tu nombre"> 
+           </div>
+
+           <div class="campo">
+            <label for="#">Teléfono</label>
+            <input class="input-text" type="tel" placeholder="Tu teléfono">
+           </div>
+
+          <div class="campo">
+           <label for="#">Email</label>
+           <input class="input-text" type="email" placeholder="email@email.com">
+          </div>
+
+          <div class="campo">
+           <label for="#">Mensaje</label>
+           <textarea class="input-text" name="" id="" cols="30" rows="10"></textarea>
+          </div>
+
+        </div> <!--campos-->
+
+        <div class="alinear-derecha flex">
+         <input class="boton w-sm-100" type="submit" value="Enviar">
+        </div>
+
+      </fieldset>
+    </form>
+    </section>
+
+    <footer class="footer">
+      <p>Todos los derechos Ada Contreras - 2023</p>
+    </footer>
+
+</body>
+</html>
